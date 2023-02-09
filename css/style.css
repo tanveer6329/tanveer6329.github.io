@@ -227,7 +227,8 @@ h3 { font-size: var(--fs-h3) }
     font-weight: var(--fw-bold);
 }
 .footer__link:hover, .social-list__link:hover {
-    opacity: 0.6;
+    opacity: 1;
+    color: #4078c0
 }
 .footer__link:hover {
     text-decoration: underline;
@@ -244,4 +245,13 @@ h3 { font-size: var(--fs-h3) }
 }
 .social-list__link {
     padding: .5em;
+}
+.linkedin:hover {
+    color: #0077B5;
+}
+.twitter:hover {
+    color: #1DA1F2
+}
+.github:hover {
+    color: #6cc644
 }
