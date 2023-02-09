@@ -21,9 +21,9 @@
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
     
-    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
-          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
+
 @media (min-width: 800px) {
     :root {
         --fs-h1: 4.5rem;
@@ -35,7 +35,6 @@
 
 
 /* General styles */
-
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -96,24 +95,6 @@ h3 { font-size: var(--fs-h3) }
 }
 .section__title--intro strong {
     display: block;
-}
-.section__subtitle {
-    margin: 0;
-    font-size: var(--fs-h3);
-}
-
-.section__subtitle--intro,
-.section__subtitle--about {
-    background: var(--clr-accent);
-    padding: .25em 1em;
-    font-family: var(--ff-secondary);
-    margin-bottom: 1em;
-}
-
-.section__subtitle--work {
-    color: var(--clr-accent);
-    font-weight: var(--fw-bold);
-    margin-bottom: 1em;
 }
 
 
