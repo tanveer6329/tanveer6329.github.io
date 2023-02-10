@@ -1,1 +1,7 @@
-# website link: tanveer6329.github.io
+# Basic Personal Website
+Which inlcudes:
+- Education
+- Experience
+- Skills
+- Research interest
+- Aspiration
