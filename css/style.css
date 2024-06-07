@@ -144,7 +144,8 @@ h3 { font-size: var(--fs-h3) }
 .about-me__img {
     box-shadow: var(--bs);
     grid-area: img;
-    position: relative;
+    /* position: relative; */
+    position: right;
     z-index: 2;
 } 
 
